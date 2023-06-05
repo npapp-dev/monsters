@@ -17,7 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint ./src --fix",
-    "ci:lint": "eslint ./src"
+    "ci:lint": "eslint ./src",
+    "ci:lighthouse":"lighthouse-ci"
   },
   "eslintConfig": {
     "extends": [
